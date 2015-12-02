@@ -68,14 +68,14 @@ body {
 }
 
 .bio{
-	max-width: 630px;
+	max-width: 650px;
 }
 
 
 /* -------------------- Fonts -------------------- */
 
 p{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', serif;
 	color: #484848;
 	font-weight: normal;
 	font-size: 1em;
@@ -87,7 +87,7 @@ p{
 h1{
 	font-weight: 400;
 	color: #484848;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', serif;
 	font-size: 1.6em;
 	letter-spacing: -0.03em;
 	margin: 20px 0;
