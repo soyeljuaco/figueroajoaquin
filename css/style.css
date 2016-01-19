@@ -35,40 +35,15 @@ html {
 html,
 body {
     height: 100%;
-    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
     /* The html and body elements cannot have any padding or margin. */
 }
 
 
 /* -------------------- Layout -------------------- */
 
-.dummy {
-    padding-top: 100%;
-    /* forces 1:1 aspect ratio */
-}
 
-.img-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    /* Align center inline elements */
-    font: 0/0 a;
-}
-
-.img-container:before {
-    content: ' ';
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-}
-
-.img-container img {
-    vertical-align: middle;
-    display: inline-block;
-}
 
 .display-table {
     display: table;
@@ -89,21 +64,10 @@ body {
 /* -------------------- Fonts -------------------- */
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
     color: #566076;
-    font-weight: normal;
-    font-size: 1.025em;
+    font-size: 1.2em;
     line-height: 2em;
-    margin: 20px 0;
-}
-
-h1 {
-    font-weight: 600;
-    color: #232830;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2em;
-    letter-spacing: -0.03em;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 a {
@@ -116,10 +80,10 @@ a {
 a:hover {
     color: #3F71E3;
     text-decoration: none;
-    border-bottom: 1px solid rgba(114, 114, 114, 0.3);
+    border-bottom: 1px solid #D0DDFF;
     -webkit-transition: all 0.2s ease;
     strong {
-        color: #222222;
+        color: #D0DDFF;
     }
     /* media queries */
     @media screen and (max-width: 41.125em) {
