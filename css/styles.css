@@ -105,9 +105,9 @@ body {
     padding: 0;
 }
 
-.check{
-  padding-left: 30px;
-  border-left: 1px solid #ddd;
+.check {
+    padding-left: 30px;
+    border-left: 1px solid #ddd;
 }
 
 footer {
@@ -319,13 +319,13 @@ small {
         padding: 50px 0;
     }
     .img-info {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-  }
-  img{
-    width: 90%;
-  }
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        width: 90%;
+    }
 }
 
 
