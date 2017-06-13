@@ -195,7 +195,7 @@ p.time {
 /* slider range pricing */
 
 .ui-widget-content {
-    background: #e1e1e1;
+    background: #f6f6f6;
     color: #222222;
     margin-top: -2px;
 }
@@ -279,7 +279,7 @@ p.time {
 
 .ui-slider-range-min {
     background: #00A94B;
-    height: 15px;
+    height: 10px;
 }
 
 input[type=checkbox],
